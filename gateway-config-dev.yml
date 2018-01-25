@@ -1,0 +1,6 @@
+zuul:
+  prefix: /api/v1
+  routes:
+    parking:
+      path: /parking/**
+      serviceId: parking
